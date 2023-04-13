@@ -1,5 +1,3 @@
-![543](https://user-images.githubusercontent.com/45472076/231830204-b316178e-66ca-442c-8342-0bf070a680d5.PNG)
-
 # MicroServiceArchitecture
 - 각각을 분리시킴 + 자동화된 배포 시스템
 - 운영, 유지보수에 편리
@@ -29,6 +27,8 @@
     - 장애 복구 위한 회복성 패턴
     - Hystrix (Netflix에 있는)
 
+
+![543](https://user-images.githubusercontent.com/45472076/231830204-b316178e-66ca-442c-8342-0bf070a680d5.PNG)
 **Client → (정보 요청) → LoadBalancer(API Gateway) → (내가 필요한 서비스가 어디입니까)? → Discovery → 마이크로서비스**
 
 # Eureka
