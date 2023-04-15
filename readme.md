@@ -43,6 +43,7 @@
 - Authentication + Authorization
 - Authentication: 인증
 - Authorization: 권한
+인증이 되었을 때 or 인증이 안 되었을 때 작업 처리
 
 (1) application에 spring security jar을 Dependency에 추가
 
@@ -55,3 +56,4 @@
 (5) Password encode위한 BCryptPasswordEncoder 빈 정의
 
 (6) **Authorization** -> configure(HttpSecurity http) 메서드 재정의
+
