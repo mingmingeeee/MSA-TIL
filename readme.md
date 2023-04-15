@@ -55,5 +55,7 @@
 
 (5) Password encode위한 BCryptPasswordEncoder 빈 정의
 
+랜덤 Salt 부여하여 여러번 Hash 적용한 암호화 방식
+
 (6) **Authorization** -> configure(HttpSecurity http) 메서드 재정의
 
