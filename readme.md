@@ -38,3 +38,20 @@
 - 기능
     - 서비스 등록
     - 서비스 검색
+    
+# SpringSecurity
+- Authentication + Authorization
+- Authentication: 인증
+- Authorization: 권한
+
+(1) application에 spring security jar을 Dependency에 추가
+
+(2) WebSecurityConfigurerAdapter 상속받는 Security Configuration class 생성
+
+(3) Security Configuration class에 @EnableWebSecurity 추가
+
+(4) **Authentication** -> configure(AuthenticationManagerBuilder auth) 메서드 재정의
+
+(5) Password encode위한 BCryptPasswordEncoder 빈 정의
+
+(6) **Authorization** -> configure(HttpSecurity http) 메서드 재정의
