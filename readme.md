@@ -59,3 +59,18 @@
 
 (6) **Authorization** -> configure(HttpSecurity http) 메서드 재정의
 
+# Spring Security 순서
+![gggg](https://user-images.githubusercontent.com/45472076/232300816-d1bf7b5d-5ce8-430a-8266-228582785d0e.PNG)
+(1) config 
+
+(2) 사용자 Login시 가장 먼저 AuthenticationFilter - attemptAuthentication 실행
+
+=> Login 요청
+
+(3) loadUserByUsername 실행
+
+=> DB에서 존재 여부 확인 
+
+(4) successfulAuthentication 실행 (Login 완료 시)
+
+=> Token 발
