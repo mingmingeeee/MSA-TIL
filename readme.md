@@ -73,4 +73,8 @@
 
 (4) successfulAuthentication 실행 (Login 완료 시)
 
-=> Token 발
+=> Token 발급
+
+==> 발급 받을 땐 builer.
+
+==> 검증할 땐 parser. => decode 해서 검증
