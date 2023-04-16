@@ -30,6 +30,13 @@ logging:
   level:
     com.example.userservice: DEBUG
 
+management:
+  endpoint:
+    web:
+      exposure:
+        include: refresh, health, beans # config에서 가져와야할 정보 refresh하겠다는 의미
+
+
 #token:
 #  expiration_time: 86400000 # 60초 * 60분 * 24시간 * 1000초
 #  secret: user_token
