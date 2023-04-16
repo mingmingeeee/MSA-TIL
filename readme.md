@@ -60,7 +60,7 @@
 (6) **Authorization** -> configure(HttpSecurity http) 메서드 재정의
 
 # Spring Security 순서
-![gggg](https://user-images.githubusercontent.com/45472076/232300816-d1bf7b5d-5ce8-430a-8266-228582785d0e.PNG)
+![gggg](https://user-images.githubusercontent.com/45472076/232300894-9b169f09-b0fd-46a1-a324-e0a5652abe68.PNG)
 (1) config 
 
 (2) 사용자 Login시 가장 먼저 AuthenticationFilter - attemptAuthentication 실행
