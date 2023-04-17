@@ -15,9 +15,9 @@ spring:
       settings:
         web-allow-others: true # ?? ?? ??
       path: /h2-console
-  datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
+#  datasource:
+#    driver-class-name: org.h2.Driver
+#    url: jdbc:h2:mem:testdb
 
 eureka:
   instance:
@@ -36,11 +36,10 @@ logging:
     com.example.userservice: DEBUG
 
 management:
-  endpoint:
+  endpoints:
     web:
       exposure:
-        include: refresh, health, beans, busrefresh # config에서 가져와야할 정보 refresh하겠다는 의미
-
+        include: refresh, health, beans, busrefresh
 
 #token:
 #  expiration_time: 86400000 # 60초 * 60분 * 24시간 * 1000초

@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000 # 60초 * 60분 * 24시간 * 1000초
-  secret: my_token_ecommerce_native_application
+  secret: my_token_ecommerce_native_application_bb
 
 gateway:
   ip: 221.141.159.111

@@ -1,3 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}44ee8c1617738a13f6a71e4f16de035a1278348dd4d6693c2aa01156e52dff13'
+
 token:
   expiration_time: 86400000 # 60초 * 60분 * 24시간 * 1000초
   secret: my_token_native_user_service
