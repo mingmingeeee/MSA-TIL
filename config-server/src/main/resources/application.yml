@@ -5,8 +5,24 @@ server:
 spring:
   application:
     name: config-service
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  profiles:
+    active: native
   cloud:
     config:
       server:
+        native:
+          search-locations: file:///C:\Users\SSAFY\Desktop\msa\native-file-repo
         git:
-          uri: file:///C:\Users\min\Desktop\msa
+          uri: https://github.com/mingmingeeee/MSA-TIL
+#          username: [username]
+#          password: [password]
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh
