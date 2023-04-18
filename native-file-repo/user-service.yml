@@ -3,11 +3,17 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: '{cipher}44ee8c1617738a13f6a71e4f16de035a1278348dd4d6693c2aa01156e52dff13'
+    password: "{cipher}AQDLTj0I9yIAtFtYAncd+AOtvYX1Ps38v1SdQkWUheTcXNZbwTnFaS6tBHd3ltYuGU76F6+CNlAOb6GgeycepBlSf6ZpgIQpYAVJqDlow3U/DMTSmp7VyNNHU7GClyJ31vPUdmcQ56MGdaiyyIdU6/BMXKei2TZKTL+YBqzz7drDw8a4eYlp41xVpWX1s1RyYZ/E7HFhti43SKczPPbR7eal3/X09oXGPmviJot/KYDeGjB8ingjyYj7J99VfQMFcGI84QeC2MIxAQxpfWpDRGbHWP2dLXEL28prkqVzVZxi4C80y9lrGK0OYsTxJUaNy76wgO9H99XkGd1YzSxnpwc8OMx6fiwAmcJEn/7CD+OKZECkoL4EB8uvLyE+anGsmBE="
 
 token:
   expiration_time: 86400000 # 60초 * 60분 * 24시간 * 1000초
-  secret: my_token_native_user_service
+  secret: "{cipher}AQAMbviSb1uPwCNIMoWKuB2nTCAnZ5iUiW3jooLAwZ3L7IEqbWgydpqoWxNNVXKNbXRJ4YTI5ZVxIb1oZuxU3gWfuPe8yIjcteWvrw1HcqihdtILpj2ePL6cktBMY75om+NVz/sUtknz/+tTq1Q+Uq5F1S2B+dCOY3PDLXmljb9uIO6TIEfL688/+KW3MFXKAFlnCcuQO/6tAQR59lmEPkNQIn7Kk/B1/iOIgFHCywwabKTmGgXLufZvfv8z7eL0I2V/8w76Bv2wXYAYVfHXgzbEJlu9ZvHo0x8kSbnkgaPkq0Zy9sd6e7khHSzVz+kXzRIJXa0GExvdVCWw7e+4lsvNKT9OhAdDaOEIApPasFLFPajUeYnom/WtO/XyNKgBVEYxTj+CjIov3NWX3UUIvn4bVjvD69fDvgjlfhwNEgzaoQ=="
 
 gateway:
   ip: 221.141.159.111
+
+order_service:
+  url: http://ORDER-SERVICE/order-service/%s/orders
+  # 유레카 서버에 등록된 마이크로 서비스 이름
+  exception:
+    order_is_empty: There is no data.
