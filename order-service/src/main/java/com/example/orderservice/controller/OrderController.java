@@ -8,6 +8,7 @@ import com.example.orderservice.service.OrderService;
 import com.example.orderservice.service.OrderServiceImpl;
 import com.example.orderservice.vo.RequestOrder;
 import com.example.orderservice.vo.ResponseOrder;
+import lombok.extern.slf4j.Slf4j;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +21,7 @@ import java.util.*;
 import javax.ws.rs.Path;
 
 @RestController
+@Slf4j
 @RequestMapping("/order-service")
 public class OrderController {
 
@@ -45,6 +47,7 @@ public class OrderController {
 
     @PostMapping("/{userId}/orders")
     public ResponseEntity<ResponseOrder> createOrder(@RequestBody RequestOrder orderDetails, @PathVariable("userId") String userId) {
+        log.info("Before add orders data");
         ModelMapper mapper = new ModelMapper();
         mapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
 
@@ -54,28 +57,30 @@ public class OrderController {
         orderDto.setUserId(userId);
 
         /* jpa */
-//        OrderDto createOrder = orderService.createOrder(orderDto);
-//        ResponseOrder responseOrder = mapper.map(createOrder, ResponseOrder.class);
+        OrderDto createOrder = orderService.createOrder(orderDto);
+        ResponseOrder responseOrder = mapper.map(createOrder, ResponseOrder.class);
 
         /* kafka */
         // 사용자가 전달했던 주문 정보 orderDto에 저장
-        orderDto.setOrderId(UUID.randomUUID().toString());
-        orderDto.setTotalPrice(orderDetails.getQty() * orderDetails.getUnitPrice());
+//        orderDto.setOrderId(UUID.randomUUID().toString());
+//        orderDto.setTotalPrice(orderDetails.getQty() * orderDetails.getUnitPrice());
+//
+//        // kafka에 message 전달
+//        /* send this order to the kafka */
+//        kafkaProducer.send("example-category-topic", orderDto);
+//        orderProducer.send("orders", orderDto);
 
-        // kafka에 message 전달
-        /* send this order to the kafka */
-        kafkaProducer.send("example-category-topic", orderDto);
-        orderProducer.send("orders", orderDto);
 
+//        ResponseOrder responseOrder = mapper.map(orderDto, ResponseOrder.class);
 
-        ResponseOrder responseOrder = mapper.map(orderDto, ResponseOrder.class);
-
+        log.info("After added orders data");
         return ResponseEntity.status(HttpStatus.CREATED).body(responseOrder);
 
     }
 
     @GetMapping("/{userId}/orders")
     public ResponseEntity<List<ResponseOrder>> getOrder(@PathVariable("userId") String userId) {
+        log.info("Before retrieve orders data");
         Iterable<OrderEntity> orderList = orderService.getOrdersByUserId(userId);
 
         List<ResponseOrder> result = new ArrayList<>();
@@ -83,6 +88,7 @@ public class OrderController {
         orderList.forEach(v -> {
             result.add(new ModelMapper().map(v, ResponseOrder.class));
         });
+        log.info("Add retrieved orders data");
 
         return ResponseEntity.status(HttpStatus.OK).body(result);
     }
