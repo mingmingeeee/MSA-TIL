@@ -1,0 +1,664 @@
+2023-01-18 13:54:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-01-18 13:54:24 0 [Note] InnoDB: Number of pools: 1
+2023-01-18 13:54:24 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-18 13:54:24 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-01-18 13:54:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-18 13:54:24 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-18 13:54:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-01-18 13:54:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-01-18 13:54:24 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-01-18 13:54:24 0 [Note] InnoDB: 10.6.7 started; log sequence number 41361; transaction id 14
+2023-01-18 13:54:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-18 13:54:24 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-18 13:54:24 0 [Note] Server socket created on IP: '::'.
+2023-01-18 13:54:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-18 13:54:24 0 [Note] InnoDB: Buffer pool(s) load completed at 230118 13:54:24
+2023-01-18 13:54:24 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-01-18 14:01:42 3 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:35:20 5 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:35:22 6 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:36:13 7 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:36:15 8 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:37:41 9 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:37:42 10 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:38:22 11 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:38:23 12 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-18 14:39:07 13 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-18 14:39:08 14 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-01-18 17:36:43 15 [Note] InnoDB: Foreign Key referenced table hotsix/calender not found for foreign table hotsix/operation
+2023-01-18 17:36:43 15 [Note] InnoDB: Foreign Key referenced table hotsix/calender not found for foreign table hotsix/operation
+2023-01-18 17:36:45 15 [Note] InnoDB: Foreign Key referenced table hotsix/main_category not found for foreign table hotsix/ps
+2023-01-18 17:36:45 15 [Note] InnoDB: Foreign Key referenced table hotsix/main_category not found for foreign table hotsix/ps
+2023-01-18 17:36:47 15 [Note] InnoDB: Foreign Key referenced table hotsix/consulting not found for foreign table hotsix/report
+2023-01-18 17:36:47 15 [Note] InnoDB: Foreign Key referenced table hotsix/consulting not found for foreign table hotsix/report
+2023-01-18 17:36:53 15 [Note] InnoDB: Foreign Key referenced table hotsix/consulting not found for foreign table hotsix/rating
+2023-01-18 17:36:53 15 [Note] InnoDB: Foreign Key referenced table hotsix/consulting not found for foreign table hotsix/rating
+2023-01-18 17:36:55 15 [Note] InnoDB: Foreign Key referenced table hotsix/ps not found for foreign table hotsix/review
+2023-01-18 17:36:55 15 [Note] InnoDB: Foreign Key referenced table hotsix/ps not found for foreign table hotsix/review
+2023-01-18 17:36:57 15 [Note] InnoDB: Foreign Key referenced table hotsix/calender not found for foreign table hotsix/reservation
+2023-01-18 17:36:57 15 [Note] InnoDB: Foreign Key referenced table hotsix/consulting not found for foreign table hotsix/reservation
+2023-01-18 17:36:57 15 [Note] InnoDB: Foreign Key referenced table hotsix/ps not found for foreign table hotsix/reservation
+2023-01-18 17:36:57 15 [Note] InnoDB: Foreign Key referenced table hotsix/calender not found for foreign table hotsix/reservation
+2023-01-18 17:36:57 15 [Note] InnoDB: Foreign Key referenced table hotsix/consulting not found for foreign table hotsix/reservation
+2023-01-18 17:36:57 15 [Note] InnoDB: Foreign Key referenced table hotsix/ps not found for foreign table hotsix/reservation
+2023-01-18 17:36:59 15 [Note] InnoDB: Foreign Key referenced table hotsix/main_category not found for foreign table hotsix/sub_category
+2023-01-18 17:36:59 15 [Note] InnoDB: Foreign Key referenced table hotsix/main_category not found for foreign table hotsix/sub_category
+2023-01-18 17:37:01 15 [Note] InnoDB: Foreign Key referenced table hotsix/ps not found for foreign table hotsix/total_rating
+2023-01-18 17:37:01 15 [Note] InnoDB: Foreign Key referenced table hotsix/ps not found for foreign table hotsix/total_rating
+2023-01-18 18:00:05 326 [Warning] Aborted connection 326 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 335 [Warning] Aborted connection 335 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 334 [Warning] Aborted connection 334 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 333 [Warning] Aborted connection 333 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 332 [Warning] Aborted connection 332 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 331 [Warning] Aborted connection 331 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 330 [Warning] Aborted connection 330 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 329 [Warning] Aborted connection 329 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 328 [Warning] Aborted connection 328 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:05 327 [Warning] Aborted connection 327 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-18 18:00:15 15 [Warning] Aborted connection 15 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-19  8:50:59 0 [Note] mysqld.exe: Aria engine: starting recovery
+recovered pages: 0% 27% 37% 47% 60% 73% 96% 100% (0.0 seconds); tables to flush: 1 0
+ (0.0 seconds); 
+2023-01-19  8:50:59 0 [Note] mysqld.exe: Aria engine: recovery done
+2023-01-19  8:50:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-01-19  8:50:59 0 [Note] InnoDB: Number of pools: 1
+2023-01-19  8:50:59 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-19  8:50:59 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-01-19  8:50:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-19  8:50:59 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=41361,41361
+2023-01-19  8:50:59 0 [Note] InnoDB: Starting final batch to recover 83 pages from redo log.
+2023-01-19  8:50:59 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-19  8:50:59 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-19  8:50:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-01-19  8:50:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-01-19  8:50:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-01-19  8:50:59 0 [Note] InnoDB: 10.6.7 started; log sequence number 2156943; transaction id 2493
+2023-01-19  8:50:59 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-19  8:50:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-19  8:50:59 0 [Note] InnoDB: Buffer pool(s) load completed at 230119  8:50:59
+2023-01-19  8:50:59 0 [Note] Server socket created on IP: '::'.
+2023-01-19  8:50:59 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-19  8:50:59 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-01-19  8:51:02 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-01-19  8:51:02 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-01-19  8:51:02 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-01-19  8:51:02 0 [Note] InnoDB: Starting shutdown...
+2023-01-19  8:51:02 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-19  8:51:02 0 [Note] InnoDB: Buffer pool(s) dump completed at 230119  8:51:02
+2023-01-19  8:51:02 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-19  8:51:02 0 [Note] InnoDB: Shutdown completed; log sequence number 2157119; transaction id 2494
+2023-01-19  8:51:02 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-01-19  8:51:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-01-19  8:51:23 0 [Note] InnoDB: Number of pools: 1
+2023-01-19  8:51:23 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-19  8:51:23 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-01-19  8:51:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-19  8:51:23 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-19  8:51:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-01-19  8:51:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-01-19  8:51:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-01-19  8:51:23 0 [Note] InnoDB: 10.6.7 started; log sequence number 2157119; transaction id 2493
+2023-01-19  8:51:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-19  8:51:23 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-19  8:51:23 0 [Note] Server socket created on IP: '::'.
+2023-01-19  8:51:23 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-19  8:51:23 0 [Note] InnoDB: Buffer pool(s) load completed at 230119  8:51:23
+2023-01-19  8:51:23 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-01-22 17:15:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-01-22 17:15:37 0 [Note] InnoDB: Number of pools: 1
+2023-01-22 17:15:37 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-22 17:15:37 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-01-22 17:15:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-22 17:15:37 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2157119,2157119
+2023-01-22 17:15:37 0 [Note] InnoDB: Starting final batch to recover 11 pages from redo log.
+2023-01-22 17:15:37 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-22 17:15:37 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-22 17:15:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-01-22 17:15:37 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-01-22 17:15:37 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-01-22 17:15:37 0 [Note] InnoDB: 10.6.7 started; log sequence number 2217227; transaction id 2614
+2023-01-22 17:15:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-22 17:15:37 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-22 17:15:37 0 [Note] Server socket created on IP: '::'.
+2023-01-22 17:15:37 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-22 17:15:37 0 [Note] InnoDB: Buffer pool(s) load completed at 230122 17:15:37
+2023-01-22 17:15:37 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-01-25 15:18:12 15 [Warning] Access denied for user 'hotsix'@'localhost' (using password: YES)
+2023-01-25 16:44:02 141 [Warning] Aborted connection 141 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 147 [Warning] Aborted connection 147 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 139 [Warning] Aborted connection 139 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 142 [Warning] Aborted connection 142 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 140 [Warning] Aborted connection 140 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 146 [Warning] Aborted connection 146 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 145 [Warning] Aborted connection 145 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 143 [Warning] Aborted connection 143 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 144 [Warning] Aborted connection 144 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:02 148 [Warning] Aborted connection 148 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:10 162 [Warning] Aborted connection 162 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-25 16:44:11 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-01-25 16:44:11 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-01-25 16:44:11 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-01-25 16:44:11 0 [Note] InnoDB: Starting shutdown...
+2023-01-25 16:44:11 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-25 16:44:11 0 [Note] InnoDB: Buffer pool(s) dump completed at 230125 16:44:11
+2023-01-25 16:44:12 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-01-25 16:44:12 0 [Note] InnoDB: Shutdown completed; log sequence number 5325248; transaction id 5832
+2023-01-25 16:44:12 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-01-25 16:44:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-01-25 16:44:35 0 [Note] InnoDB: Number of pools: 1
+2023-01-25 16:44:35 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-01-25 16:44:35 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-01-25 16:44:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-01-25 16:44:35 0 [Note] InnoDB: 128 rollback segments are active.
+2023-01-25 16:44:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-01-25 16:44:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-01-25 16:44:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-01-25 16:44:35 0 [Note] InnoDB: 10.6.7 started; log sequence number 5325248; transaction id 5833
+2023-01-25 16:44:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-01-25 16:44:35 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-01-25 16:44:35 0 [Note] Server socket created on IP: '::'.
+2023-01-25 16:44:35 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-01-25 16:44:36 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-01-25 16:44:36 0 [Note] InnoDB: Buffer pool(s) load completed at 230125 16:44:36
+2023-01-25 18:00:20 3 [Warning] Aborted connection 3 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30 18:00:16 540 [Warning] Aborted connection 540 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-30 18:00:16 518 [Warning] Aborted connection 518 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-01-31 18:00:12 942 [Warning] Aborted connection 942 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 11:29:30 1224 [Warning] Aborted connection 1224 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 11:29:31 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-02-02 11:29:31 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-02-02 11:29:31 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-02-02 11:29:31 0 [Note] InnoDB: Starting shutdown...
+2023-02-02 11:29:31 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-02 11:29:31 0 [Note] InnoDB: Buffer pool(s) dump completed at 230202 11:29:31
+2023-02-02 11:29:31 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-02-02 11:29:31 0 [Note] InnoDB: Shutdown completed; log sequence number 10092903; transaction id 9128
+2023-02-02 11:29:31 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-02-02 11:29:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-02-02 11:29:58 0 [Note] InnoDB: Number of pools: 1
+2023-02-02 11:29:58 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-02-02 11:29:58 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-02-02 11:29:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-02 11:29:58 0 [Note] InnoDB: 128 rollback segments are active.
+2023-02-02 11:29:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-02-02 11:29:58 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-02-02 11:29:58 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-02-02 11:29:58 0 [Note] InnoDB: 10.6.7 started; log sequence number 10092903; transaction id 9129
+2023-02-02 11:29:58 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-02 11:29:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-02-02 11:29:58 0 [Note] Server socket created on IP: '::'.
+2023-02-02 11:29:58 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-02-02 11:29:58 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-02-02 11:29:58 0 [Note] InnoDB: Buffer pool(s) load completed at 230202 11:29:58
+2023-02-02 18:00:16 240 [Warning] Aborted connection 240 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 242 [Warning] Aborted connection 242 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 236 [Warning] Aborted connection 236 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 238 [Warning] Aborted connection 238 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 234 [Warning] Aborted connection 234 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 239 [Warning] Aborted connection 239 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 237 [Warning] Aborted connection 237 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 241 [Warning] Aborted connection 241 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 235 [Warning] Aborted connection 235 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:16 243 [Warning] Aborted connection 243 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-02 18:00:32 23 [Warning] Aborted connection 23 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 472 [Warning] Aborted connection 472 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 473 [Warning] Aborted connection 473 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 470 [Warning] Aborted connection 470 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 469 [Warning] Aborted connection 469 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 468 [Warning] Aborted connection 468 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 471 [Warning] Aborted connection 471 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 467 [Warning] Aborted connection 467 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 466 [Warning] Aborted connection 466 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 465 [Warning] Aborted connection 465 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03  1:51:55 474 [Warning] Aborted connection 474 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 606 [Warning] Aborted connection 606 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 611 [Warning] Aborted connection 611 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 610 [Warning] Aborted connection 610 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 614 [Warning] Aborted connection 614 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 615 [Warning] Aborted connection 615 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 609 [Warning] Aborted connection 609 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 608 [Warning] Aborted connection 608 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 607 [Warning] Aborted connection 607 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 613 [Warning] Aborted connection 613 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 14:07:20 612 [Warning] Aborted connection 612 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-03 18:00:16 244 [Warning] Aborted connection 244 to db: 'hotsix' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-02-06 15:29:54 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-02-06 15:29:54 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-02-06 15:29:54 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-02-06 15:29:54 0 [Note] InnoDB: Starting shutdown...
+2023-02-06 15:29:54 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-06 15:29:54 0 [Note] InnoDB: Buffer pool(s) dump completed at 230206 15:29:54
+2023-02-06 15:29:54 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-02-06 15:29:54 0 [Note] InnoDB: Shutdown completed; log sequence number 19344160; transaction id 18442
+2023-02-06 15:29:54 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-02-06 15:30:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-02-06 15:30:20 0 [Note] InnoDB: Number of pools: 1
+2023-02-06 15:30:20 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-02-06 15:30:20 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-02-06 15:30:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-06 15:30:20 0 [Note] InnoDB: 128 rollback segments are active.
+2023-02-06 15:30:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-02-06 15:30:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-02-06 15:30:20 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-02-06 15:30:20 0 [Note] InnoDB: 10.6.7 started; log sequence number 19344160; transaction id 18443
+2023-02-06 15:30:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-02-06 15:30:20 0 [Note] Server socket created on IP: '::'.
+2023-02-06 15:30:20 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-02-06 15:30:20 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-06 15:30:20 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-02-06 15:30:20 0 [Note] InnoDB: Buffer pool(s) load completed at 230206 15:30:20
+2023-02-20 13:34:54 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-02-20 13:34:54 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-02-20 13:34:54 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-02-20 13:34:54 0 [Note] InnoDB: Starting shutdown...
+2023-02-20 13:34:54 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-20 13:34:54 0 [Note] InnoDB: Buffer pool(s) dump completed at 230220 13:34:54
+2023-02-20 13:34:54 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-02-20 13:34:54 0 [Note] InnoDB: Shutdown completed; log sequence number 19344172; transaction id 18444
+2023-02-20 13:34:54 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-02-20 13:35:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-02-20 13:35:26 0 [Note] InnoDB: Number of pools: 1
+2023-02-20 13:35:26 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-02-20 13:35:26 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-02-20 13:35:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-20 13:35:26 0 [Note] InnoDB: 128 rollback segments are active.
+2023-02-20 13:35:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-02-20 13:35:26 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-02-20 13:35:26 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-02-20 13:35:26 0 [Note] InnoDB: 10.6.7 started; log sequence number 19344172; transaction id 18443
+2023-02-20 13:35:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-02-20 13:35:26 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-20 13:35:26 0 [Note] Server socket created on IP: '::'.
+2023-02-20 13:35:26 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-02-20 13:35:26 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-02-20 13:35:26 0 [Note] InnoDB: Buffer pool(s) load completed at 230220 13:35:26
+2023-02-20 14:53:48 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-02-20 14:53:48 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-02-20 14:53:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-02-20 14:53:48 0 [Note] InnoDB: Starting shutdown...
+2023-02-20 14:53:48 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-20 14:53:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 230220 14:53:48
+2023-02-20 14:53:48 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-02-20 14:53:48 0 [Note] InnoDB: Shutdown completed; log sequence number 19344184; transaction id 18444
+2023-02-20 14:53:48 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-02-20 14:54:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-02-20 14:54:19 0 [Note] InnoDB: Number of pools: 1
+2023-02-20 14:54:19 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-02-20 14:54:19 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-02-20 14:54:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-02-20 14:54:19 0 [Note] InnoDB: 128 rollback segments are active.
+2023-02-20 14:54:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-02-20 14:54:19 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-02-20 14:54:19 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-02-20 14:54:19 0 [Note] InnoDB: 10.6.7 started; log sequence number 19344184; transaction id 18443
+2023-02-20 14:54:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-02-20 14:54:19 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-02-20 14:54:19 0 [Note] Server socket created on IP: '::'.
+2023-02-20 14:54:19 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-02-20 14:54:20 0 [Note] InnoDB: Buffer pool(s) load completed at 230220 14:54:20
+2023-02-20 14:54:20 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-05 16:04:01 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-05 16:04:01 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-05 16:04:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-05 16:04:01 0 [Note] InnoDB: Starting shutdown...
+2023-03-05 16:04:01 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-05 16:04:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 230305 16:04:01
+2023-03-05 16:04:01 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-05 16:04:01 0 [Note] InnoDB: Shutdown completed; log sequence number 19344196; transaction id 18444
+2023-03-05 16:04:01 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-05 16:04:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-05 16:04:29 0 [Note] InnoDB: Number of pools: 1
+2023-03-05 16:04:29 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-05 16:04:29 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-05 16:04:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-05 16:04:29 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-05 16:04:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-05 16:04:29 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-05 16:04:29 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-05 16:04:29 0 [Note] InnoDB: 10.6.7 started; log sequence number 19344196; transaction id 18443
+2023-03-05 16:04:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-05 16:04:29 0 [Note] Server socket created on IP: '::'.
+2023-03-05 16:04:29 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-05 16:04:29 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-05 16:04:29 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-05 16:04:30 0 [Note] InnoDB: Buffer pool(s) load completed at 230305 16:04:30
+2023-03-06  9:24:09 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-06  9:24:09 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-06  9:24:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-06  9:24:09 0 [Note] InnoDB: Starting shutdown...
+2023-03-06  9:24:09 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-06  9:24:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 230306  9:24:09
+2023-03-06  9:24:09 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-06  9:24:09 0 [Note] InnoDB: Shutdown completed; log sequence number 19344208; transaction id 18444
+2023-03-06  9:24:09 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-06  9:24:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-06  9:24:35 0 [Note] InnoDB: Number of pools: 1
+2023-03-06  9:24:35 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-06  9:24:35 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-06  9:24:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-06  9:24:35 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-06  9:24:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-06  9:24:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-06  9:24:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-06  9:24:35 0 [Note] InnoDB: 10.6.7 started; log sequence number 19344208; transaction id 18443
+2023-03-06  9:24:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-06  9:24:35 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-06  9:24:35 0 [Note] InnoDB: Buffer pool(s) load completed at 230306  9:24:35
+2023-03-06  9:24:36 0 [Note] Server socket created on IP: '::'.
+2023-03-06  9:24:36 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-06  9:24:36 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-06 13:48:55 15 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-03-07 23:27:18 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-07 23:27:18 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-07 23:27:18 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-07 23:27:18 0 [Note] InnoDB: Starting shutdown...
+2023-03-07 23:27:18 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-07 23:27:18 0 [Note] InnoDB: Buffer pool(s) dump completed at 230307 23:27:18
+2023-03-07 23:27:18 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-07 23:27:18 0 [Note] InnoDB: Shutdown completed; log sequence number 19491975; transaction id 18526
+2023-03-07 23:27:18 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-07 23:27:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-07 23:27:45 0 [Note] InnoDB: Number of pools: 1
+2023-03-07 23:27:45 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-07 23:27:45 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-07 23:27:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-07 23:27:45 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-07 23:27:45 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-07 23:27:45 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-07 23:27:45 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-07 23:27:45 0 [Note] InnoDB: 10.6.7 started; log sequence number 19491975; transaction id 18527
+2023-03-07 23:27:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-07 23:27:45 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-07 23:27:45 0 [Note] InnoDB: Buffer pool(s) load completed at 230307 23:27:45
+2023-03-07 23:27:45 0 [Note] Server socket created on IP: '::'.
+2023-03-07 23:27:45 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-07 23:27:45 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-10 14:08:32 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-10 14:08:32 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-10 14:08:32 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-10 14:08:32 0 [Note] InnoDB: Starting shutdown...
+2023-03-10 14:08:32 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-10 14:08:32 0 [Note] InnoDB: Buffer pool(s) dump completed at 230310 14:08:32
+2023-03-10 14:08:32 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-10 14:08:32 0 [Note] InnoDB: Shutdown completed; log sequence number 19491987; transaction id 18528
+2023-03-10 14:08:32 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-10 14:09:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-10 14:09:00 0 [Note] InnoDB: Number of pools: 1
+2023-03-10 14:09:00 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-10 14:09:00 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-10 14:09:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-10 14:09:00 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-10 14:09:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-10 14:09:00 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-10 14:09:00 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-10 14:09:00 0 [Note] InnoDB: 10.6.7 started; log sequence number 19491987; transaction id 18527
+2023-03-10 14:09:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-10 14:09:00 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-10 14:09:00 0 [Note] Server socket created on IP: '::'.
+2023-03-10 14:09:00 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-10 14:09:00 0 [Note] InnoDB: Buffer pool(s) load completed at 230310 14:09:00
+2023-03-10 14:09:00 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-10 14:43:09 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-10 14:43:09 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-10 14:43:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-10 14:43:09 0 [Note] InnoDB: Starting shutdown...
+2023-03-10 14:43:09 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-10 14:43:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 230310 14:43:09
+2023-03-10 14:43:09 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-10 14:43:09 0 [Note] InnoDB: Shutdown completed; log sequence number 19491999; transaction id 18528
+2023-03-10 14:43:09 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-10 14:43:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-10 14:43:37 0 [Note] InnoDB: Number of pools: 1
+2023-03-10 14:43:37 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-10 14:43:37 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-10 14:43:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-10 14:43:37 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-10 14:43:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-10 14:43:37 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-10 14:43:37 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-10 14:43:37 0 [Note] InnoDB: 10.6.7 started; log sequence number 19491999; transaction id 18527
+2023-03-10 14:43:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-10 14:43:37 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-10 14:43:37 0 [Note] InnoDB: Buffer pool(s) load completed at 230310 14:43:37
+2023-03-10 14:43:37 0 [Note] Server socket created on IP: '::'.
+2023-03-10 14:43:37 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-10 14:43:37 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-13 14:28:39 3 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-03-13 18:00:34 98 [Warning] Aborted connection 98 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 102 [Warning] Aborted connection 102 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 99 [Warning] Aborted connection 99 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 100 [Warning] Aborted connection 100 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 101 [Warning] Aborted connection 101 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 95 [Warning] Aborted connection 95 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 103 [Warning] Aborted connection 103 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 94 [Warning] Aborted connection 94 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 97 [Warning] Aborted connection 97 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-13 18:00:34 96 [Warning] Aborted connection 96 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-14 13:45:40 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-14 13:45:40 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-14 13:45:40 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-14 13:45:40 0 [Note] InnoDB: Starting shutdown...
+2023-03-14 13:45:40 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-14 13:45:40 0 [Note] InnoDB: Buffer pool(s) dump completed at 230314 13:45:40
+2023-03-14 13:45:40 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-14 13:45:40 0 [Note] InnoDB: Shutdown completed; log sequence number 19492011; transaction id 18528
+2023-03-14 13:45:40 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-14 13:46:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-14 13:46:13 0 [Note] InnoDB: Number of pools: 1
+2023-03-14 13:46:13 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-14 13:46:13 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-14 13:46:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-14 13:46:13 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-14 13:46:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-14 13:46:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-14 13:46:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-14 13:46:13 0 [Note] InnoDB: 10.6.7 started; log sequence number 19492011; transaction id 18527
+2023-03-14 13:46:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-14 13:46:13 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-14 13:46:13 0 [Note] Server socket created on IP: '::'.
+2023-03-14 13:46:13 0 [Note] InnoDB: Buffer pool(s) load completed at 230314 13:46:13
+2023-03-14 13:46:13 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-14 13:46:13 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-14 13:50:01 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-14 13:50:01 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-14 13:50:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-14 13:50:01 0 [Note] InnoDB: Starting shutdown...
+2023-03-14 13:50:01 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-14 13:50:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 230314 13:50:01
+2023-03-14 13:50:01 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-14 13:50:01 0 [Note] InnoDB: Shutdown completed; log sequence number 19492023; transaction id 18528
+2023-03-14 13:50:01 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-14 13:50:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-14 13:50:29 0 [Note] InnoDB: Number of pools: 1
+2023-03-14 13:50:29 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-14 13:50:29 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-14 13:50:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-14 13:50:29 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-14 13:50:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-14 13:50:30 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-14 13:50:30 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-14 13:50:30 0 [Note] InnoDB: 10.6.7 started; log sequence number 19492023; transaction id 18527
+2023-03-14 13:50:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-14 13:50:30 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-14 13:50:30 0 [Note] InnoDB: Buffer pool(s) load completed at 230314 13:50:30
+2023-03-14 13:50:30 0 [Note] Server socket created on IP: '::'.
+2023-03-14 13:50:30 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-14 13:50:30 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-17 18:00:25 15 [Warning] Aborted connection 15 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-24 18:00:21 16 [Warning] Aborted connection 16 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-24 18:00:58 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-24 18:00:58 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-24 18:00:58 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-24 18:00:58 0 [Note] InnoDB: Starting shutdown...
+2023-03-24 18:00:58 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-24 18:00:58 0 [Note] InnoDB: Buffer pool(s) dump completed at 230324 18:00:58
+2023-03-24 18:00:58 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-24 18:00:58 0 [Note] InnoDB: Shutdown completed; log sequence number 19492035; transaction id 18528
+2023-03-24 18:00:58 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-24 18:01:28 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-24 18:01:28 0 [Note] InnoDB: Number of pools: 1
+2023-03-24 18:01:28 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-24 18:01:28 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-24 18:01:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-24 18:01:29 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-24 18:01:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-24 18:01:29 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-24 18:01:29 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-24 18:01:29 0 [Note] InnoDB: 10.6.7 started; log sequence number 19492035; transaction id 18527
+2023-03-24 18:01:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-24 18:01:29 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-24 18:01:29 0 [Note] Server socket created on IP: '::'.
+2023-03-24 18:01:29 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-24 18:01:29 0 [Note] InnoDB: Buffer pool(s) load completed at 230324 18:01:29
+2023-03-24 18:01:29 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-24 18:01:50 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-03-24 18:01:50 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-03-24 18:01:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-03-24 18:01:50 0 [Note] InnoDB: Starting shutdown...
+2023-03-24 18:01:50 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-24 18:01:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 230324 18:01:50
+2023-03-24 18:01:51 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-03-24 18:01:51 0 [Note] InnoDB: Shutdown completed; log sequence number 19492047; transaction id 18528
+2023-03-24 18:01:51 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-03-27 10:11:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-03-27 10:11:18 0 [Note] InnoDB: Number of pools: 1
+2023-03-27 10:11:18 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-03-27 10:11:18 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-03-27 10:11:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-03-27 10:11:18 0 [Note] InnoDB: 128 rollback segments are active.
+2023-03-27 10:11:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-03-27 10:11:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-03-27 10:11:18 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-03-27 10:11:18 0 [Note] InnoDB: 10.6.7 started; log sequence number 19492047; transaction id 18527
+2023-03-27 10:11:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-03-27 10:11:18 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-03-27 10:11:18 0 [Note] Server socket created on IP: '::'.
+2023-03-27 10:11:18 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-03-27 10:11:18 0 [Note] InnoDB: Buffer pool(s) load completed at 230327 10:11:18
+2023-03-27 10:11:18 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-03-27 18:00:23 3 [Warning] Aborted connection 3 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-27 18:00:23 4 [Warning] Aborted connection 4 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-03-30  2:56:25 6 [Warning] Aborted connection 6 to db: 'hast' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2023-03-30 14:00:55 8 [Warning] Aborted connection 8 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-04  8:33:51 9 [Warning] Aborted connection 9 to db: 'hast' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2023-04-04  8:33:51 10 [Warning] Aborted connection 10 to db: 'hast' user: 'root' host: 'localhost' (Got timeout reading communication packets)
+2023-04-05 14:36:41 11 [Warning] Aborted connection 11 to db: 'hast' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-05 14:36:43 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-04-05 14:36:43 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-04-05 14:36:43 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-04-05 14:36:43 0 [Note] InnoDB: Starting shutdown...
+2023-04-05 14:36:43 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-04-05 14:36:43 0 [Note] InnoDB: Buffer pool(s) dump completed at 230405 14:36:43
+2023-04-05 14:36:43 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-04-05 14:36:43 0 [Note] InnoDB: Shutdown completed; log sequence number 19492059; transaction id 18528
+2023-04-05 14:36:43 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-04-05 14:37:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-04-05 14:37:23 0 [Note] InnoDB: Number of pools: 1
+2023-04-05 14:37:23 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-04-05 14:37:23 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-04-05 14:37:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-04-05 14:37:23 0 [Note] InnoDB: 128 rollback segments are active.
+2023-04-05 14:37:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-04-05 14:37:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-04-05 14:37:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-04-05 14:37:23 0 [Note] InnoDB: 10.6.7 started; log sequence number 19492059; transaction id 18527
+2023-04-05 14:37:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-04-05 14:37:23 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-04-05 14:37:24 0 [Note] InnoDB: Buffer pool(s) load completed at 230405 14:37:24
+2023-04-05 14:37:24 0 [Note] Server socket created on IP: '::'.
+2023-04-05 14:37:24 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-04-05 14:37:24 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-04-17 17:23:14 0 [Note] Windows service "MariaDB":  received SERVICE_CONTROL_SHUTDOWN
+2023-04-17 17:23:14 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2023-04-17 17:23:14 0 [Note] InnoDB: FTS optimize thread exiting.
+2023-04-17 17:23:14 0 [Note] InnoDB: Starting shutdown...
+2023-04-17 17:23:14 0 [Note] InnoDB: Dumping buffer pool(s) to C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-04-17 17:23:14 0 [Note] InnoDB: Buffer pool(s) dump completed at 230417 17:23:14
+2023-04-17 17:23:14 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2023-04-17 17:23:14 0 [Note] InnoDB: Shutdown completed; log sequence number 19492071; transaction id 18528
+2023-04-17 17:23:14 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: Shutdown complete
+
+2023-04-17 17:23:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2023-04-17 17:23:53 0 [Note] InnoDB: Number of pools: 1
+2023-04-17 17:23:53 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2023-04-17 17:23:53 0 [Note] InnoDB: Initializing buffer pool, total size = 4294967296, chunk size = 134217728
+2023-04-17 17:23:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2023-04-17 17:23:53 0 [Note] InnoDB: 128 rollback segments are active.
+2023-04-17 17:23:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2023-04-17 17:23:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2023-04-17 17:23:53 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2023-04-17 17:23:53 0 [Note] InnoDB: 10.6.7 started; log sequence number 19492071; transaction id 18527
+2023-04-17 17:23:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-04-17 17:23:53 0 [Note] InnoDB: Loading buffer pool(s) from C:\Program Files\MariaDB 10.6\data\ib_buffer_pool
+2023-04-17 17:23:53 0 [Note] InnoDB: Buffer pool(s) load completed at 230417 17:23:53
+2023-04-17 17:23:53 0 [Note] Server socket created on IP: '::'.
+2023-04-17 17:23:53 0 [Note] Server socket created on IP: '0.0.0.0'.
+2023-04-17 17:23:53 0 [Note] C:\Program Files\MariaDB 10.6\bin\mysqld.exe: ready for connections.
+Version: '10.6.7-MariaDB'  socket: ''  port: 3307  mariadb.org binary distribution
+2023-04-19  9:07:57 3 [Warning] Access denied for user 'SSAFY'@'localhost' (using password: NO)
+2023-04-19  9:08:05 4 [Warning] Access denied for user 'SSAFY'@'localhost' (using password: NO)
+2023-04-19  9:08:10 5 [Warning] Access denied for user 'SSAFY'@'localhost' (using password: NO)
+2023-04-19  9:14:48 6 [Warning] Access denied for user 'SSAFY'@'localhost' (using password: NO)
+2023-04-19  9:15:26 0 [ERROR] InnoDB: The data file './ibdata1' must be writable
+2023-04-19  9:15:26 0 [ERROR] InnoDB: The data file './ibdata1' must be writable
+2023-04-19  9:15:26 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2023-04-19  9:15:26 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2023-04-19  9:15:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2023-04-19  9:15:26 0 [ERROR] Unknown/unsupported storage engine: InnoDB
+2023-04-19  9:15:26 0 [ERROR] Aborting
+2023-04-19  9:15:39 7 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-04-19  9:16:25 8 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-04-19  9:16:28 9 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-04-19  9:16:31 10 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-04-19 10:29:42 11 [Warning] Aborted connection 11 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 11:39:12 13 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-04-19 11:44:45 16 [Warning] Aborted connection 16 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 11:44:45 15 [Warning] Aborted connection 15 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 13:25:25 12 [Warning] Aborted connection 12 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:13:46 32 [Warning] Access denied for user 'root'@'localhost' (using password: NO)
+2023-04-19 17:22:03 34 [Warning] Aborted connection 34 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:36:29 33 [Warning] Aborted connection 33 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:50:07 20 [Warning] Aborted connection 20 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:50:07 25 [Warning] Aborted connection 25 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:50:07 19 [Warning] Aborted connection 19 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:50:07 23 [Warning] Aborted connection 23 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:50:07 27 [Warning] Aborted connection 27 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:50:07 29 [Warning] Aborted connection 29 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-19 17:51:42 14 [Warning] Aborted connection 14 to db: 'test' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2023-04-20 10:46:44 35 [Warning] Access denied for user 'root'@'localhost' (using password: YES)
+2023-04-20 10:46:45 36 [Warning] Access denied for user 'root'@'localhost' (using password: YES)

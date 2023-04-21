@@ -67,7 +67,7 @@ public class OrderController {
 //
 //        // kafka에 message 전달
 //        /* send this order to the kafka */
-//        kafkaProducer.send("example-category-topic", orderDto);
+        kafkaProducer.send("example-category-topic", orderDto);
 //        orderProducer.send("orders", orderDto);
 
 
