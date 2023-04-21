@@ -1,6 +1,7 @@
 encrypt:
 #  key: abcdefghijklmnopqrstuvwxyz0123456789
   key-store:
-    location: file:///C:\Users\SSAFY\Desktop\msa\keystore\apiEncryptionKey.jks
+#    location: file:///C:\Users\SSAFY\Desktop\msa\keystore\apiEncryptionKey.jks
     password: test1234
     alias: apiEncryptionKey
+    location: file:/apiEncryptionKey.jks

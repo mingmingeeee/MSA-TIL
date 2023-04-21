@@ -15,8 +15,8 @@ spring:
   cloud:
     config:
       server:
-        native:
-          search-locations: C:\Users\SSAFY\Desktop\msa\native-file-repo
+#        native:
+#          search-locations: C:\Users\SSAFY\Desktop\msa\native-file-repo
         git:
           uri: https://github.com/mingmingeeee/MSA-TIL
 #          username: [username]

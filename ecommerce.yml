@@ -1,6 +1,6 @@
 token:
   expiration_time: 86400000 # 60초 * 60분 * 24시간 * 1000초
-  secret: my_token_default
+  secret: "{cipher}AQAMbviSb1uPwCNIMoWKuB2nTCAnZ5iUiW3jooLAwZ3L7IEqbWgydpqoWxNNVXKNbXRJ4YTI5ZVxIb1oZuxU3gWfuPe8yIjcteWvrw1HcqihdtILpj2ePL6cktBMY75om+NVz/sUtknz/+tTq1Q+Uq5F1S2B+dCOY3PDLXmljb9uIO6TIEfL688/+KW3MFXKAFlnCcuQO/6tAQR59lmEPkNQIn7Kk/B1/iOIgFHCywwabKTmGgXLufZvfv8z7eL0I2V/8w76Bv2wXYAYVfHXgzbEJlu9ZvHo0x8kSbnkgaPkq0Zy9sd6e7khHSzVz+kXzRIJXa0GExvdVCWw7e+4lsvNKT9OhAdDaOEIApPasFLFPajUeYnom/WtO/XyNKgBVEYxTj+CjIov3NWX3UUIvn4bVjvD69fDvgjlfhwNEgzaoQ=="
 
 gateway:
   ip: 221.141.159.111
